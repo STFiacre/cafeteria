@@ -209,4 +209,13 @@ button:hover, .btn:hover {
 .btn-separacion {
     margin: 40px 0;
 }
+/* ===== CENTRAR BOTONES EN CONTACTO ===== */
+.contact {
+    text-align: center;
+}
+
+.contact a.btn-oficial {
+    margin-left: auto;
+    margin-right: auto;
+}
 
