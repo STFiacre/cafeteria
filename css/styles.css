@@ -170,32 +170,43 @@ button:hover, .btn:hover {
     color: #ffffff;
     transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
 }
+/* ===== BOTONES OFICIALES (FORZADOS) ===== */
+.contact a.btn-oficial {
+    display: inline-block;
+    padding: 16px 38px;
+    border-radius: 14px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: transparent;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
 
-/* Botón Hospital (ROJO) */
-.btn-hospital {
+/* Hospital */
+.contact a.btn-hospital {
     background-color: #9b1c1c;
     box-shadow: 0 8px 20px rgba(155, 28, 28, 0.35);
 }
 
-.btn-hospital:hover {
+.contact a.btn-hospital:hover {
     transform: translateY(-2px);
     box-shadow: 0 12px 28px rgba(155, 28, 28, 0.45);
-    opacity: 0.95;
 }
 
-/* Botón Discord (AZUL) */
-.btn-discord {
+/* Discord */
+.contact a.btn-discord {
     background-color: #5865F2;
     box-shadow: 0 8px 20px rgba(88, 101, 242, 0.35);
 }
 
-.btn-discord:hover {
+.contact a.btn-discord:hover {
     transform: translateY(-2px);
     box-shadow: 0 12px 28px rgba(88, 101, 242, 0.45);
-    opacity: 0.95;
 }
 
-/* Separación vertical */
+/* Separación */
 .btn-separacion {
-    margin: 35px 0;
+    margin: 40px 0;
 }
+
