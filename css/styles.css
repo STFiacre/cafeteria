@@ -197,11 +197,12 @@ footer {
     font-size: 0.9rem;
 }
 
-/* ===== LOGO FIJO ===== */
+/* Logo fijo en la esquina inferior derecha */
 .logo-fija {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 80px;
-    z-index: 1000;
+    position: fixed;   /* Se queda en la esquina aunque hagas scroll */
+    bottom: 20px;      /* Distancia desde abajo */
+    right: 20px;       /* Distancia desde la derecha */
+    width: 80px;       /* Tamaño del logo */
+    height: auto;      /* Mantiene proporción */
+    z-index: 1000;     /* Encima de otros elementos */
 }
